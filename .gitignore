@@ -1,0 +1,13 @@
+# Ignore build output
+build/
+*.class
+*.jar
+*.war
+*.ear
+
+# NetBeans specific
+nbproject/private/
+build.xml
+
+# VS Code settings
+.vscode/
