@@ -22,7 +22,7 @@ public class About extends JFrame {
         heading.setFont(new Font("Tahoma", Font.BOLD, 30));
         add(heading);
         
-        JLabel name = new JLabel("Developed By: Code for Interview");
+        JLabel name = new JLabel("Developed By: Taishuk Emam");
         name.setBounds(70, 220, 550, 40);
         name.setFont(new Font("Tahoma", Font.BOLD, 30));
         add(name);
