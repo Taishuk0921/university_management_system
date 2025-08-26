@@ -52,7 +52,7 @@ public class AddStudent extends JFrame implements ActionListener{
         lblrollno.setFont(new Font("serif", Font.BOLD, 20));
         add(lblrollno);
         
-        labelrollno = new JLabel("1533"+first4);
+        labelrollno = new JLabel("2320"+first4);
         labelrollno.setBounds(200, 200, 200, 30);
         labelrollno.setFont(new Font("serif", Font.BOLD, 20));
         add(labelrollno);
@@ -93,7 +93,7 @@ public class AddStudent extends JFrame implements ActionListener{
         tfemail.setBounds(200, 300, 150, 30);
         add(tfemail);
         
-        JLabel lblx = new JLabel("Class X (%)");
+        JLabel lblx = new JLabel("SSC (%)");
         lblx.setBounds(400, 300, 200, 30);
         lblx.setFont(new Font("serif", Font.BOLD, 20));
         add(lblx);
@@ -102,7 +102,7 @@ public class AddStudent extends JFrame implements ActionListener{
         tfx.setBounds(600, 300, 150, 30);
         add(tfx);
         
-        JLabel lblxii = new JLabel("Class XII (%)");
+        JLabel lblxii = new JLabel("HSC (%)");
         lblxii.setBounds(50, 350, 200, 30);
         lblxii.setFont(new Font("serif", Font.BOLD, 20));
         add(lblxii);
@@ -111,10 +111,11 @@ public class AddStudent extends JFrame implements ActionListener{
         tfxii.setBounds(200, 350, 150, 30);
         add(tfxii);
         
-        JLabel lblaadhar = new JLabel("Aadhar Number");
-        lblaadhar.setBounds(400, 350, 200, 30);
-        lblaadhar.setFont(new Font("serif", Font.BOLD, 20));
-        add(lblaadhar);
+        JLabel lbnid = new JLabel("NID");
+        lbnid.setBounds(400, 350, 200, 30);
+        lbnid.setFont(new Font("serif", Font.BOLD, 20));
+        add(lbnid);
+
         
         tfaadhar = new JTextField();
         tfaadhar.setBounds(600, 350, 150, 30);
