@@ -8,7 +8,7 @@ import java.awt.event.*;
 
 public class AddStudent extends JFrame implements ActionListener{
     
-    JTextField tfname, tffname, tfaddress, tfphone, tfemail, tfx, tfxii, tfaadhar;
+    JTextField tfname, tffname, tfaddress, tfphone, tfemail, tfx, tfxii, tfnid;
     JLabel labelrollno;
     JDateChooser dcdob;
     JComboBox cbcourse, cbbranch;
@@ -171,7 +171,7 @@ public class AddStudent extends JFrame implements ActionListener{
             String address = tfaddress.getText();
             String phone = tfphone.getText();
             String email = tfemail.getText();
-            String x = tfx.getText();
+            String x = tfssc.getText();
             String xii = tfxii.getText();
             String aadhar = tfaadhar.getText();
             String course = (String) cbcourse.getSelectedItem();
