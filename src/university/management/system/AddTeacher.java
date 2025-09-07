@@ -8,7 +8,7 @@ import java.awt.event.*;
 
 public class AddTeacher extends JFrame implements ActionListener{
     
-    JTextField tfname, tffname, tfaddress, tfphone, tfemail, tfx, tfxii, tfaadhar;
+    JTextField tfname, tffname, tfaddress, tfphone, tfemail, tfx, tfxii, tfnid;
     JLabel labelempId;
     JDateChooser dcdob;
     JComboBox cbcourse, cbbranch;
@@ -93,7 +93,7 @@ public class AddTeacher extends JFrame implements ActionListener{
         tfemail.setBounds(200, 300, 150, 30);
         add(tfemail);
         
-        JLabel lblx = new JLabel("Class X (%)");
+        JLabel lblx = new JLabel("Class SSC (%)");
         lblx.setBounds(400, 300, 200, 30);
         lblx.setFont(new Font("serif", Font.BOLD, 20));
         add(lblx);
@@ -102,7 +102,7 @@ public class AddTeacher extends JFrame implements ActionListener{
         tfx.setBounds(600, 300, 150, 30);
         add(tfx);
         
-        JLabel lblxii = new JLabel("Class XII (%)");
+        JLabel lblxii = new JLabel("Class HSC (%)");
         lblxii.setBounds(50, 350, 200, 30);
         lblxii.setFont(new Font("serif", Font.BOLD, 20));
         add(lblxii);
@@ -111,7 +111,7 @@ public class AddTeacher extends JFrame implements ActionListener{
         tfxii.setBounds(200, 350, 150, 30);
         add(tfxii);
         
-        JLabel lblaadhar = new JLabel("Aadhar Number");
+        JLabel lblnid = new JLabel("Nid Number");
         lblaadhar.setBounds(400, 350, 200, 30);
         lblaadhar.setFont(new Font("serif", Font.BOLD, 20));
         add(lblaadhar);
@@ -172,7 +172,7 @@ public class AddTeacher extends JFrame implements ActionListener{
             String email = tfemail.getText();
             String x = tfx.getText();
             String xii = tfxii.getText();
-            String aadhar = tfaadhar.getText();
+            String nid = tfnid.getText();
             String course = (String) cbcourse.getSelectedItem();
             String branch = (String) cbbranch.getSelectedItem();
             
